@@ -70,15 +70,16 @@ animation-duration: 1.5s;
 animation-delay: 1.5s;
 animation-iteration-count: 1;
 }
-/*main image */
+/*main image fixed!!! Responsive*/
 .main2 {
     background-image: url('/img/main2.png');
-   background-repeat: no-repeat !important; 
+   background-repeat: no-repeat; 
     background-size: cover;
    width: 120%;
+  /*height: 100%;*/
    background-position: fixed;
    right: -2%;
-    background-attachment: fixed;
+    /*background-attachment: fixed;*/
     background-position: center center;
 }
 			
@@ -144,7 +145,7 @@ animation-iteration-count: 1;
     background-size: cover;
     display: inline-block;
    width: 120%;
-   background-position: relative;
+   /*background-position: relative;*/
   
     background-attachment: fixed;
     margin-top: 5%;
