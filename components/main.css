@@ -56,19 +56,6 @@ margin-top: 8%;
     z-index: 66;
 }
 
-/*#scroller .fa{
- font-size: 4vw;
-    color: white;
-}
-#scroller{
-    position: absolute;
-    top: 600px;
-    left: 50%;
-     z-index: 9999;
-animation-duration: 2s;
-animation-delay: 1s;
-animation-iteration-count: 10;
-}*/
 
 .main{
     position: relative;
@@ -146,42 +133,22 @@ animation-iteration-count: 1;
     margin: auto;
       opacity: .1;
 }
-/*.roasteries{
-    text-align: center;
-}*/
-.roasteries .row{
-  background-image: url('/img/roastback.png');
-   background-repeat: no-repeat !important; 
-    background-size: cover;
-   width: 100%;
-   background-position: relative;
-    /*background-attachment: fixed;*/
-    background-position: center center;
-     text-align: center;
-}
+
 .roasteries h1{
     text-align: center;
     color: #b4a755;
 }
-/*#roasters{
-    background-image: url('/img/gunny.jpg');
-   background-repeat: no-repeat !important; 
-    background-size: cover;
-   width: 120%;
-   background-position: relative;
-   right: -2%;
-    /*background-attachment: fixed;*/
-    /*background-position: center center;
-}*/
-/*.roastback{
-   
+#roasters{
     background-image: url('/img/roastback.png');
    background-repeat: no-repeat !important; 
     background-size: cover;
+    display: inline-block;
    width: 120%;
-   background-position: fixed;
-   right: -2%;
+   background-position: relative;
+  
     background-attachment: fixed;
-    background-position: center center;
-    z-index: 22;
-}*/
+    margin-top: 5%;
+    padding-left: 25px;
+    padding-right: 2px;
+    }
+
